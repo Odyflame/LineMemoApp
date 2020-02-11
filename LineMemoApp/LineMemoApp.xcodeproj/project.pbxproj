@@ -7,23 +7,29 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1815FF4823F2847F0041690A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1815FF4723F2847F0041690A /* AppDelegate.swift */; };
-		1815FF4A23F2847F0041690A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1815FF4923F2847F0041690A /* SceneDelegate.swift */; };
-		1815FF4C23F2847F0041690A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1815FF4B23F2847F0041690A /* ViewController.swift */; };
 		1815FF4F23F2847F0041690A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1815FF4D23F2847F0041690A /* Main.storyboard */; };
-		1815FF5123F2847F0041690A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1815FF5023F2847F0041690A /* Assets.xcassets */; };
 		1815FF5423F2847F0041690A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1815FF5223F2847F0041690A /* LaunchScreen.storyboard */; };
+		1815FF6223F2860E0041690A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1815FF6123F2860E0041690A /* Assets.xcassets */; };
+		1815FF6423F286210041690A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1815FF6323F286210041690A /* ViewController.swift */; };
+		1815FF6623F2863D0041690A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1815FF6523F2863D0041690A /* AppDelegate.swift */; };
+		1815FF6823F2864C0041690A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1815FF6723F2864C0041690A /* SceneDelegate.swift */; };
+		1815FF6B23F29F880041690A /* firstTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1815FF6A23F29F880041690A /* firstTVC.swift */; };
+		185F40DB23F2BFD200BB3318 /* LiMeMo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 185F40DA23F2BFD200BB3318 /* LiMeMo.swift */; };
+		185F40DF23F2C5E100BB3318 /* addMeMoVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 185F40DE23F2C5E100BB3318 /* addMeMoVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		1815FF4423F2847F0041690A /* LineMemoApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LineMemoApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		1815FF4723F2847F0041690A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		1815FF4923F2847F0041690A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		1815FF4B23F2847F0041690A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		1815FF4423F2847F0041690A /* LiMeMo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LiMeMo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1815FF4E23F2847F0041690A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		1815FF5023F2847F0041690A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1815FF5323F2847F0041690A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1815FF5523F2847F0041690A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1815FF6123F2860E0041690A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = LineMemoApp/SupportFile/Assets.xcassets; sourceTree = SOURCE_ROOT; };
+		1815FF6323F286210041690A /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		1815FF6523F2863D0041690A /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = LineMemoApp/SupportFile/AppDelegate.swift; sourceTree = SOURCE_ROOT; };
+		1815FF6723F2864C0041690A /* SceneDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SceneDelegate.swift; path = LineMemoApp/SupportFile/SceneDelegate.swift; sourceTree = SOURCE_ROOT; };
+		1815FF6A23F29F880041690A /* firstTVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = firstTVC.swift; sourceTree = "<group>"; };
+		185F40DA23F2BFD200BB3318 /* LiMeMo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LiMeMo.swift; sourceTree = "<group>"; };
+		185F40DE23F2C5E100BB3318 /* addMeMoVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = addMeMoVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -48,7 +54,7 @@
 		1815FF4523F2847F0041690A /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				1815FF4423F2847F0041690A /* LineMemoApp.app */,
+				1815FF4423F2847F0041690A /* LiMeMo.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -56,15 +62,66 @@
 		1815FF4623F2847F0041690A /* LineMemoApp */ = {
 			isa = PBXGroup;
 			children = (
-				1815FF4723F2847F0041690A /* AppDelegate.swift */,
-				1815FF4923F2847F0041690A /* SceneDelegate.swift */,
-				1815FF4B23F2847F0041690A /* ViewController.swift */,
-				1815FF4D23F2847F0041690A /* Main.storyboard */,
-				1815FF5023F2847F0041690A /* Assets.xcassets */,
-				1815FF5223F2847F0041690A /* LaunchScreen.storyboard */,
+				1815FF6923F29F590041690A /* View */,
+				1815FF6023F285090041690A /* Service */,
+				1815FF5F23F284F40041690A /* Model */,
+				1815FF5E23F284E40041690A /* ViewController */,
+				1815FF5D23F284D10041690A /* SupportFile */,
+				1815FF5C23F284C60041690A /* StoryBoard */,
 				1815FF5523F2847F0041690A /* Info.plist */,
 			);
 			path = LineMemoApp;
+			sourceTree = "<group>";
+		};
+		1815FF5C23F284C60041690A /* StoryBoard */ = {
+			isa = PBXGroup;
+			children = (
+				1815FF4D23F2847F0041690A /* Main.storyboard */,
+				1815FF5223F2847F0041690A /* LaunchScreen.storyboard */,
+			);
+			path = StoryBoard;
+			sourceTree = "<group>";
+		};
+		1815FF5D23F284D10041690A /* SupportFile */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = SupportFile;
+			sourceTree = "<group>";
+		};
+		1815FF5E23F284E40041690A /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				185F40DE23F2C5E100BB3318 /* addMeMoVC.swift */,
+				1815FF6323F286210041690A /* ViewController.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		1815FF5F23F284F40041690A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				185F40DA23F2BFD200BB3318 /* LiMeMo.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		1815FF6023F285090041690A /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				1815FF6723F2864C0041690A /* SceneDelegate.swift */,
+				1815FF6523F2863D0041690A /* AppDelegate.swift */,
+				1815FF6123F2860E0041690A /* Assets.xcassets */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		1815FF6923F29F590041690A /* View */ = {
+			isa = PBXGroup;
+			children = (
+				1815FF6A23F29F880041690A /* firstTVC.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -84,7 +141,7 @@
 			);
 			name = LineMemoApp;
 			productName = LineMemoApp;
-			productReference = 1815FF4423F2847F0041690A /* LineMemoApp.app */;
+			productReference = 1815FF4423F2847F0041690A /* LiMeMo.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -126,7 +183,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1815FF5423F2847F0041690A /* LaunchScreen.storyboard in Resources */,
-				1815FF5123F2847F0041690A /* Assets.xcassets in Resources */,
+				1815FF6223F2860E0041690A /* Assets.xcassets in Resources */,
 				1815FF4F23F2847F0041690A /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -138,9 +195,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1815FF4C23F2847F0041690A /* ViewController.swift in Sources */,
-				1815FF4823F2847F0041690A /* AppDelegate.swift in Sources */,
-				1815FF4A23F2847F0041690A /* SceneDelegate.swift in Sources */,
+				1815FF6623F2863D0041690A /* AppDelegate.swift in Sources */,
+				1815FF6423F286210041690A /* ViewController.swift in Sources */,
+				185F40DB23F2BFD200BB3318 /* LiMeMo.swift in Sources */,
+				1815FF6B23F29F880041690A /* firstTVC.swift in Sources */,
+				185F40DF23F2C5E100BB3318 /* addMeMoVC.swift in Sources */,
+				1815FF6823F2864C0041690A /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -292,7 +352,7 @@
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = Admin.LineMemoApp;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = LiMeMo;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -310,7 +370,7 @@
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = Admin.LineMemoApp;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = LiMeMo;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};

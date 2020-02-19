@@ -13,11 +13,10 @@ struct LIMeMo {
     
     var MeMoTitle: String?
     var MeMoContent: String?
-    var MeMoImage: UIImage?
+    var MeMoImage: [UIImage] = []
     var MeMoDate: String?
     
 }
-
 
 //singleTon으로 메모들을 리스트로 앱 내 어디서든 쓸 수 있게 구현
 class LiMeMoList {

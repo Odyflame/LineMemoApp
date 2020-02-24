@@ -4,6 +4,9 @@
 >라인플러스 앱 개발 과제 진행 과정입니다.
 >메모장 기능 앱입니다.
 
+![initail](https://github.com/odyflame/LineMemoApp/blob/master/LiMeMoScreenShot/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202020-02-24%20%EC%98%A4%ED%9B%84%202.37.38.png) ![initail](https://github.com/odyflame/LineMemoApp/blob/master/LiMeMoScreenShot/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202020-02-24%20%EC%98%A4%ED%9B%84%202.37.11.png)
+
+
 ## 앱 개발 환경
 
 Xcode Version 11.3 <br>
